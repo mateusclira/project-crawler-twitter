@@ -69,7 +69,7 @@ def delete_all_rules(rules):
 def set_rules(delete):
     # You can adjust the rules if needed
     sample_rules = [
-        {"tag": "bolsonaro"},
+        {"tag": "alguma_coisa"},
     ]
     payload = {"add": sample_rules}
     response = requests.post(
