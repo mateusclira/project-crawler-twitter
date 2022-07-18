@@ -6,10 +6,10 @@ from decouple import config
 from datetime import datetime
 import argparse
 
-consumer_key='SmkxOMAhcgKIFNlBjx0azHx0O'
-consumer_secret='MO1GjsDEu9HuqP9MmZU55nXbhQcfFUcxMHyYsm3nleXHcsw1q7'
-access_token='122195410-uEgiTnk85RJdB6QBhWv5QxcXZdWUgyFSALZcACh3'
-access_token_secret ='XX6xgVi0sZEuZQmKlqy6z7zGuWRZvraFfAS4iYUUKxoD6'
+consumer_key=''
+consumer_secret=''
+access_token=''
+access_token_secret =''
 
 
 # data_hoje = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
@@ -21,7 +21,7 @@ import json
 
 # To set your enviornment variables in your terminal run the following line:
 # export 'BEARER_TOKEN'='<your_bearer_token>'
-bearer_token = os.environ.get("AAAAAAAAAAAAAAAAAAAAALmiewEAAAAABF3XOa%2FDBz6CKr%2B3D5Y1WuwClSM%3DbZHRYWVEY9jh0ZB4kDXVe2nsOmWRUktuR2Efe2rGEQMczkDg3r")
+bearer_token = os.environ.get("bearer here")
 
 
 def bearer_oauth(r):
